@@ -35,7 +35,7 @@ setup(
     name = "django-chronograph",
     version = ".".join([str(i) for i in chronograph.VERSION]),
     packages = find_packages(),
-    scripts = ['bin/chronograph'],
+    scripts = [],
     package_data = {
         '': ['docs/*.txt', 'docs/*.py'],
         'chronograph': ['templates/*.*', 'templates/*/*.*', 'templates/*/*/*.*', 'fixtures/*'],
